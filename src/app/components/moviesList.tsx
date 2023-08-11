@@ -12,7 +12,7 @@ const MoviesList = () => {
             {
                 todos.map((item: any, index: any) => {
                     return (
-                            <div className='bg-cyan-700 rounded-md p-2'>
+                            <div className='bg-cyan-700 rounded-md p-2' key={index}>
                                 <div className='flex justify-between'>
                                     <span className='text-blue-100 text-lg font-bold'>{index+1}</span>
                                     <span className='text-red-500 font-bold my-auto'>
