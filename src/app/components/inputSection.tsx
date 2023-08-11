@@ -55,7 +55,7 @@ const InputSection = () => {
                     onClick={addItem}
                     className='flex-grow-[1] flex items-center gap-x-2 p-3 bg-cyan-700 rounded-full justify-center text-white'>
                     <HiOutlineViewGridAdd className="text-xl" />
-                    <p className='hidden md:block'>Add Movie</p>
+                    Add Movie
                 </button>
             </div>
 
